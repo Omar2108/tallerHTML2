@@ -6,12 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+    <script type="text/javascript" src="./js/main.js" ></script>
     <title>Hoja de vida</title>
 </head>
 
 <body>
     <header>
         <h1><img src="./img/foto.jpeg">Hoja de Vida</h1>
+        <select id="cambio" onchange="cambiar()">
+            <option value="#f4f6f5">Tema 1</option>
+            <option value="#40df82">Tema 2</option>
+            <option value="#087bcd">Tema 3</option>
+            <option value="#cd0808">Tema 4</option>
+        </select>
 
     </header>
     <main>
@@ -25,8 +32,9 @@
         <div>
             <section>
                 <div>
-                    <a href="">EXPERIENCIA 1</a>
-                    <ul class="contenido">
+                    <a onclick="mostrar()">EXPERIENCIA 1</a>
+                    <ul class="contenido" id="ocultar">
+                        <a onclick="ocultar()">Ocultar Contenido</a><br>
                         <li>
                             <label>
                                 Cargo:
@@ -73,8 +81,9 @@
             <section>
                 <div>
 
-                    <a href="">EXPERIENCIA 2</a>
-                    <ul class="contenido">
+                    <a onclick="mostrar()">EXPERIENCIA 2</a>
+                    <ul class="contenido" id="ocultar">
+                        <a onclick="ocultar()">Ocultar Contenido</a><br>
                         <li>
                             <label>
                                 Cargo:
@@ -120,8 +129,9 @@
             </section>
             <section>
                 <div>
-                    <a href="">EXPERIENCIA 3</a>
-                    <ul class="contenido">
+                    <a onclick="mostrar()">EXPERIENCIA 3</a>
+                    <ul class="contenido" id="ocultar">
+                        <a onclick="ocultar()">Ocultar Contenido</a><br>
                         <li>
                             <label>
                                 Cargo:

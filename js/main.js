@@ -1,27 +1,18 @@
 
-const tema = document.getElementsByClassName("tema");
-console.log(tema);
-var cambio = document.querySelectorAll("#cambio").innerHTML;
-
-let cambiar = () =>{
+const cambiar = () => {
     
-    switch (cambio) {
-        case 1:
-            tema.classList.remove();
-            tema.classList.add("tema1");
-            break;
-        case 2:
-            tema.classList.remove();
-            tema.classList.add("tema2");
-            break;
-        case 3:
-            tema.classList.remove();
-            tema.classList.add("tema3");  
-        default:
-            
-            tema.classList.add("tema");
-            break;
-    }
+    let cambio = document.getElementById("cambio").value;
+    document.body.style.backgroundColor = cambio;
 
 }
 
+const mostrar = () => {
+    var ocultar = document.getElementById("ocultar");
+    ocultar.style.display = "block";  
+}
+
+const ocultar = () => {
+    const ocultar = document.getElementById("ocultar");
+    ocultar.style.display = "none";
+
+}
