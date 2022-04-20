@@ -1,8 +1,26 @@
-.tema1{
+.tema{
 	margin: 0;
 	padding: 0;
-	background: #40df82;
+	background: #f4f6f5;
 
+}
+
+.tema{
+    margin: 0;
+	padding: 0;
+	background: #40df82;
+}
+
+.tema2{
+    margin: 0;
+	padding: 0;
+	background: #087bcd;
+}
+
+.tema3{
+    margin: 0;
+	padding: 0;
+	background: #cd0808;
 }
 
 header{
