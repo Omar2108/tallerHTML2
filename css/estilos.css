@@ -1,0 +1,115 @@
+.tema1{
+	margin: 0;
+	padding: 0;
+	background: #40df82;
+
+}
+
+header{
+	width: 1024px;
+	margin:10px auto;
+	padding: 10px;
+	background: #7ebbe3;
+	height: 180px;
+}
+
+main{
+	padding: 4px;
+	background: #cbe9d8;
+	width: 1024px;
+	margin:0px auto;
+}
+
+section{
+	margin: 10px;
+	padding: 4px;
+	background: #41aaf0;
+}
+
+h1{
+	font-size: 30px;
+	font-family: Engravers MT;
+	text-align: center;
+	
+
+}
+
+h2{
+	font-size: 20px;
+	font-family: Engravers MT;
+}
+
+.subtitlo{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+div{
+    width: 100%;
+    box-shadow: 2px 7px 5px rgb(185, 164, 164);
+    margin: 10px;
+    margin-bottom: 10px;
+  
+
+}
+
+
+a{
+  font-size: 20px;
+  font-family: Engravers MT;
+  font-weight: bold;  
+    
+}
+
+img{
+	width: 200px;
+	height: 120px;
+	border-radius: 10px;
+	align-content: center;
+	
+
+}
+
+.img{
+	width: 200px;
+	padding: 1px;
+	margin: 0px auto;
+	justify-content: center;
+
+}
+
+label{
+	font-size: 15px;
+	font-family: Engravers MT;
+	font-weight: bold;
+}
+
+p{
+	font-size: 15px;
+	font-family: Engravers MT;
+}
+
+.btn{
+	width: 240px;
+	height: 200px;
+	border-radius: 10px;
+  box-shadow: 2px 7px 5px gray;
+  margin: 10px;
+  box-shadow: 0 0 9px black;
+  background: blue;
+  color: black;
+}
+
+a{
+	font-size: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+
+}
+
+a:hover{
+  color: red;
+  cursor: pointer;
+}
+
